@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid</title>
+    <style type="text/css">
+        .grid-container {
+            width: 100%
+            height: 2000px
+            display: grid;
+            grid-column: 200px;
+            grid-row: 364px 1086px 262px 369px;
+            grid-gap: 20px;
+            background: black;
+        }
+        header {
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
+            background: #003049; 
+        }
+        nav {
+            display: flex;
+            justify-content: flex-end;
+            background: #EAE2B7;
+        }
+        main {
+            background: #FCBF49;
+        }
+        footer {
+            background: #353535;
+        }
+    </style>
+</head>
+<body>
+   <div class="grid-container">
+    <header>
+        <h1>títol1</h1>
+        <h2>títol2</h2>
+        <h3>títol3</h3>
+    </header>
+    <nav>nav</nav>
+    <main>main</main>
+    <footer>footer</footer>
+    </div>
+</body>
+</html>
